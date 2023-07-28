@@ -1,0 +1,25 @@
+.button {
+  padding: 10px 40px;
+  border-radius: 4px;
+  background: linear-gradient(164deg, #41522e 1.1%, #be8022 100%);
+  border: transparent;
+
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%),
+    linear-gradient(164deg, #41522e 1.1%, #be8022 100%);
+}
+
+.button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    linear-gradient(164deg, #41522e 1.1%, #be8022 100%);
+}
